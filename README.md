@@ -1,17 +1,20 @@
-#GroceryApp sprint2 Docentversie  
+# GroceryApp sprint2 
+
+## Docentversie  
 In deze versie zijn de wijzigingen doorgevoerd en is de code compleet.  
 
-Studentversie:  
-UC04 Kiezen kleur boodschappenlijst  is compleet.
+## Studentversie:  
+### UC04 Kiezen kleur boodschappenlijst  
+Is compleet.
 
-UC05 Product op boodschappenlijst plaatsen:   
-- GetAvailableProducts()  
+### UC05 Product op boodschappenlijst plaatsen:   
+- `GetAvailableProducts()`  
 	De header van de functie bestaat maar de inhoud niet.  
 	Zorg dat je een lijst maakt met de beschikbare producten (dit zijn producten waarvan nog voorraad bestaat en die niet al op de boodschappenlijst staat).  
-- AddProduct()  
+- `AddProduct()`   
 	Zorg dat het gekozen beschikbare product op de boodschappenlijst komt (door middel van de GroceryListItemsService).  
 
-UC06 Inloggen  
+### UC06 Inloggen  
 Een collega is ziek maar heeft al een deel van de inlogfunctionaliteit gemaakt.  
 Dit betreft het Loginscherm (LoginView) met bijbehorend ViewModel (LoginViewModel),  
 maar ook al een deel van de authenticatieService (AuthService in Grocery.Core),  
@@ -19,7 +22,7 @@ de clientrepository (ClientRepository in Grocery.Core.Data)
 en de client class (Client in Grocery.Core).  
 De opdracht is om zelfstandig de login functionaliteit te laten werken.  
 
-Stappenplan:  
+*Stappenplan:*  
 1. Begin met de Client class en zorg dat er gebruik wordt gemaakt van Properties.  
 2. In de ClienRepository wordt nu steeds een vaste client uit de lijst geretourneerd. Werk dit uit zodat de juiste Client wordt geretourneerd.  
 3. Werk de klasse AuthService verder uit, zodat daadwerkelijk de controle op het ingevoerde password wordt uitgevoerd.
