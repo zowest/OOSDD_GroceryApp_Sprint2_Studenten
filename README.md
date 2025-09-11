@@ -17,7 +17,7 @@ Is compleet.
 ### UC06 Inloggen  
 Een collega is ziek maar heeft al een deel van de inlogfunctionaliteit gemaakt.  
 Dit betreft het Loginscherm (LoginView) met bijbehorend ViewModel (LoginViewModel),  
-maar ook al een deel van de authenticatieService (AuthService in Grocery.Core),  
+maar ook al een deel van de authenticatieService (AuthServnn,mnmice in Grocery.Core),  
 de clientrepository (ClientRepository in Grocery.Core.Data)  
 en de client class (Client in Grocery.Core).  
 De opdracht is om zelfstandig de login functionaliteit te laten werken.  
