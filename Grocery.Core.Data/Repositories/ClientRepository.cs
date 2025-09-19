@@ -1,5 +1,4 @@
-﻿
-using Grocery.Core.Interfaces.Repositories;
+﻿using Grocery.Core.Interfaces.Repositories;
 using Grocery.Core.Models;
 
 namespace Grocery.Core.Data.Repositories
@@ -19,7 +18,7 @@ namespace Grocery.Core.Data.Repositories
 
         public Client? Get(string email)
         {
-            return clientList[0];
+            return clientList.FirstOrDefault(c => c.EmailAddress == email);
         }
 
         public Client? Get(int id)
